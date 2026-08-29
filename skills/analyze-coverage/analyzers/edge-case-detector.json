@@ -1,0 +1,30 @@
+{
+  "nullHandling": [
+    "if\\s*\\(\\s*\\w+\\s*==\\s*null\\s*\\)",
+    "ArgumentNullException\\.ThrowIfNull",
+    "string\\.IsNullOrEmpty",
+    "string\\.IsNullOrWhiteSpace"
+  ],
+  "boundaryConditions": [
+    "if\\s*\\(\\s*\\w+\\s*>\\s*int\\.MaxValue",
+    "if\\s*\\(\\s*\\w+\\s*<\\s*int\\.MinValue",
+    "\\.Count\\s*==\\s*0",
+    "\\.Length\\s*==\\s*0",
+    "if\\s*\\(\\s*\\w+\\s*==\\s*0\\s*\\)"
+  ],
+  "exceptionPaths": [
+    "throw\\s+new\\s+\\w+Exception",
+    "try\\s*\\{[\\s\\S]*?\\}\\s*catch"
+  ],
+  "asyncCancellation": [
+    "CancellationToken",
+    "\\.ThrowIfCancellationRequested\\(\\)",
+    "Task\\.Delay"
+  ],
+  "validation": [
+    "\\[Required\\]",
+    "\\[Range\\(",
+    "\\[EmailAddress\\]",
+    "\\[StringLength\\("
+  ]
+}

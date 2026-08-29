@@ -1,0 +1,38 @@
+{
+  "solutionPath": "",
+  "projectName": "",
+  "language": "C#",
+  "frameworkVersion": "",
+  "projectType": "",
+  "testProject": {
+    "exists": false,
+    "path": null,
+    "framework": null,
+    "mockingLibrary": null,
+    "assertionLibrary": null,
+    "testCount": 0
+  },
+  "recommendedTestFramework": "xUnit",
+  "recommendedMockingLibrary": "Moq",
+  "recommendedAssertionLibrary": "FluentAssertions",
+  "existingPatterns": {
+    "naming": null,
+    "organization": null,
+    "mockingStyle": null
+  },
+  "dependencies": {
+    "mockable": [],
+    "integration": [],
+    "azure": []
+  },
+  "riskFlags": [],
+  "patterns": {
+    "hasAsyncMethods": false,
+    "usesDependencyInjection": false,
+    "usesAutomapper": false,
+    "usesFluentValidation": false,
+    "isAzureFunctions": false
+  },
+  "sourceFileCount": 0,
+  "estimatedComplexity": "Unknown"
+}
